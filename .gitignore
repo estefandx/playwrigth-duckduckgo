@@ -1,0 +1,38 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# TypeScript
+dist/
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Playwright
+*.test.ts
+*.test.js
+.test-results
+
+# Archivos de logs
+*.log
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos generados por el IDE
+.idea/
+.vscode/
+
+# Archivos de configuración de Playwright
+playwright-report/
+
+# Archivos de coverage (si usas algún generador de reportes de cobertura)
+coverage/
+
+# Otros archivos temporales generados
+*.bak
+*.swp
+*.tmp
